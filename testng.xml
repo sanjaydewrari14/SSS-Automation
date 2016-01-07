@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="ABMS Test Suite">
 
-<test name="Create Intake |Associate Qualification|Import Trainee">
+<test name="Associate Qualification|Import Trainee">
 <parameter name="user" value="abmsadmin"/> 
 <classes>
 <class name="com.excelsoft.testautomation.TC_ABMS_admin_CreateIntake_AssociateQual"/>
