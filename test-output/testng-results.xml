@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34949" started-at="2016-01-06T13:08:47Z" finished-at="2016-01-06T13:09:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34949" started-at="2016-01-06T13:08:47Z" finished-at="2016-01-06T13:09:22Z">
+      <class name="com.excelsoft.testautomation.Fetchdatafrompropertyfile">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.excelsoft.testautomation.Fetchdatafrompropertyfile@2d6a9952]" name="setUp" is-config="true" duration-ms="8864" started-at="2016-01-06T18:38:47Z" finished-at="2016-01-06T18:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchData()[pri:0, instance:com.excelsoft.testautomation.Fetchdatafrompropertyfile@2d6a9952]" name="fetchData" duration-ms="26068" started-at="2016-01-06T18:38:56Z" finished-at="2016-01-06T18:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchData -->
+      </class> <!-- com.excelsoft.testautomation.Fetchdatafrompropertyfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

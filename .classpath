@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/sanjay.dewrari/Downloads/selenium-server-standalone-2.48.2.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-examples-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-excelant-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-ooxml-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-ooxml-schemas-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/poi-scratchpad-3.11-beta2-20140822.jar"/>
+	<classpathentry kind="lib" path="E:/poi-3.11-beta2/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanjay.dewrari/Downloads/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanjay.dewrari/Downloads/sqljdbc4-3.0.jar/sqljdbc4-3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

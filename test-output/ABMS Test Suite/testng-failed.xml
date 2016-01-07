@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ABMS Test Suite]">
+  <parameter name="user" value="centeradmin"/>
+  <test name="Resit Capstone and CBT(failed)">
+    <parameter name="user" value="centeradmin"/>
+    <classes>
+      <class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_Appeal_Create">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_centeradmin_Appeal_Create -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_admin_CreateIntake_AssociateQual">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_admin_CreateIntake_AssociateQual -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_Cohort_Create">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_centeradmin_Cohort_Create -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_GenerateFinalResult_manualadjustments">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_GenerateFinalResult_manualadjustments -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_ResitCBTbooking">
+        <methods>
+          <include name="resitCBTbooking"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_ResitCBTbooking -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_GenerateProvisonalResult">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_GenerateProvisonalResult -->
+      <class name="com.excelsoft.testautomation.TC_ABMS_ResitCapstoneBooking">
+        <methods>
+          <include name="login"/>
+          <include name="closeSession"/>
+          <include name="initiateBrowser"/>
+        </methods>
+      </class> <!-- com.excelsoft.testautomation.TC_ABMS_ResitCapstoneBooking -->
+    </classes>
+  </test> <!-- Resit Capstone and CBT(failed) -->
+</suite> <!-- Failed suite [ABMS Test Suite] -->

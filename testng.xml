@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ABMS Test Suite">
+
+<test name="Create Intake |Associate Qualification|Import Trainee">
+<parameter name="user" value="abmsadmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_admin_CreateIntake_AssociateQual"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_admin_ImportTrainee"/>
+</classes>
+</test>
+
+<test name="Create Cohort | Assessment Booking">
+<parameter name="user" value="centeradmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_Cohort_Create"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_CBT_Assessment_create"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_Capstone_Assessment_create"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_InsertGradeintable"/>
+</classes>
+</test>
+
+<test name="Generate Provisional Result">
+<parameter name="user" value="abmsadmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_GenerateProvisonalResult"/>
+</classes>
+</test>
+
+
+<test name="Create Appeal and Malpractice">
+<parameter name="user" value="centeradmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_centeradmin_Appeal_Create"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_Malpractice_Create"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_GenerateProvisonalResult"/>
+</classes>
+</test>
+
+<test name="Manual adjustment|Final Result |Certificate generation">
+<parameter name="user" value="abmsadmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_GenerateFinalResult_manualadjustments"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_TraineeGenerateCertificateBulk"/>
+</classes>
+</test>
+
+<test name="Resit Capstone and CBT">
+<parameter name="user" value="centeradmin"/> 
+<classes>
+<class name="com.excelsoft.testautomation.TC_ABMS_ResitCapstoneBooking"/>
+<class name="com.excelsoft.testautomation.TC_ABMS_ResitCBTbooking"/>
+</classes>
+</test>
+
+</suite>
+
